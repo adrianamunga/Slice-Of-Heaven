@@ -1,0 +1,233 @@
+
+html,body,header,
+.landing {
+    overflow-x: hidden;
+    height: 100%;
+    scroll-behavior: smooth;
+    font-family: 'Love Ya Like A Sister' ;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-nav {
+    color: #add8e6;
+}
+
+.navbar{
+    width: 99%;
+    padding-right: 0px;
+}
+
+.navbar-brand{
+    margin-right: 30%;
+    font-weight:800;
+}
+
+.nav-item a{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.landing{
+    background-image: url("../images/tasty-pepperoni-pizza-black-concrete-background_79782-102.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    padding-bottom: 20px;
+    position: relative;
+    overflow-x: hidden;
+}
+.slice{color:#add8e6;}
+.of{color: #add8e6;}
+.pizza{color:#add8e6;}
+.text a{
+    font-size: 20px;
+    font-weight: 700;
+}
+h1 {
+    font-family: 'Love Ya Like A Sister';
+    letter-spacing: 8px;
+    font-weight: bolder;
+    font-size: 60px;
+}
+h5 {
+    letter-spacing: 3px;
+}
+.text h5{
+    font-size: 25px;
+    padding: 20px;
+}
+#head{
+    padding-top: 10%;
+}
+
+.button{
+    border-radius: 40px;
+}
+
+
+.card-title{
+    text-align: right;
+    color: #add8e6;
+    font-weight: 800;
+}
+.controls-top h2{
+    color: #add8e6;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+}
+
+.welcomee {
+    position: relative;
+    left: 45%;
+    margin-top: 20px;
+}
+
+.order h2{
+    text-align: center;
+}
+.order{
+    background-attachment: fixed;
+    background-image: url("../images/dcbanner-1024x446.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+.order-overlay{
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-bottom: 20px;
+    padding-left: 6%;
+}
+
+#submit{
+    color: #add8e6;
+}
+
+#checkout{
+    color: #add8e6;
+}
+
+#homedelivery {
+    color: #add8e6;
+}
+
+.choice{
+    display: none;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.deliver{
+    display: none;
+}
+.delivery{
+    display: none;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+td,th{
+    font-size: 20px;
+    color: white;
+}
+.choice h2{
+    color: #add8e6;
+    text-align: left;
+}
+#your-orders{
+    color: white;
+    font-size: 30px;
+}
+#addedprice{
+    display: none;
+}
+#finalmessage{
+    display: none;
+    padding-top: 10%;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: 28px;
+}
+
+#final-order{
+    color: #add8e6;
+}
+
+#information{
+    padding-top: 5%;
+    font-size: 22px;
+    padding-right: 8%;
+    padding-left: 5%;
+    color: #add8e6;
+}
+
+#contact h2{
+    text-align: center;
+}
+#contact{
+    color: black;
+    background-color:#add8e6;
+    padding-bottom: 20px;
+}
+#contactdetails h2{
+    text-align: left;
+}
+
+
+@media only screen and (max-width: 485px){
+    .flex-xs-column {
+      flex-direction: column;
+    }
+}
+@media only screen and (max-width: 767px){
+    .section {
+        padding-top: 30px;
+    }
+    .flex-xs-column {
+        flex-direction: column;
+    }
+    .order-overlay{
+      background-color: rgba(0, 0, 0,0.5);
+      margin-left: 2%;
+      margin-right: 2%;
+      padding-right: 16px;
+      padding-left: 16px;
+    }
+    .order h2{
+      text-align: center;
+      font-size: 20px;
+    }
+    body,
+    header,
+    .landing {
+      height: 100vh;
+    }
+    h1 {
+      font-weight: bold;
+      font-size: 40px;
+    }
+    .text h5{
+      font-size: 20px;
+      padding: 20px;
+    }
+    #head{
+      padding-top: 30%;
+    }
+    .col-md-3{
+      padding-left: 20%;
+    }
+    .iframe{
+      width: 300px;
+      margin-right: 5%;
+      margin-left: 10%;
+    }
+  
+}

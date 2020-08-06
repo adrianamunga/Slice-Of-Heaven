@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>Slice Of Heaven</title>
+
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
+  </head>
+  <body>
+   
+    <header>
+      <div class="view landing">
+        <div id="overlay">
+  
+            <nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+              <a class="navbar-brand" href="#overlay"  style="font-size: 30px"><span class="slice">Slice </span><span class="of">Of </span><span class="pizza">Heaven</span></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse align-items-center" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#menu">Menu</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#make-order">Order</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contacts</a>
+                  </li>    
+                </ul>
+              </div>  
+            </nav>
+
+          
+            <div class="">
+              <div class="container" id="head">
+                <div class="row">
+                  <div class="col-md-12 mb-4 text-center text">
+                    <h1 class="h1-reponsive" style="font-size: 70px;"><span class="slice">Slice </span><span class="of">Of </span><span class="pizza">Heaven</span></h1>
+                    <h5 class="text-uppercase mb-4 gold-text" style="color: #add8e6;">Every slice is out of this world</h5>
+                    <a class="btn button floater" href="#make-order">  Order Now!</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+      </div>
+    </header>
+
+
+
+    <div class="container carousel slide carousel-multi-item" data-ride="carousel" id="menu">
+      <div class="controls-top "> 
+        <h2 style="text-align: center;">Menu</h2>
+      </div>
+      <br>
+<div class="menu col-md-12">
+    <div class="menu-overlay">
+        <div class="pizza-menu row text-center">
+            <figure class="col-sm-4">
+                <img src="./images/download 2.jpg" alt="small-pizza">
+                <figcaption>Small<br>Ksh. 400</figcaption>
+            </figure>
+            <figure class="col-sm-4">
+                <img src="./images/images.jpg" alt="medium-pizza">
+                <figcaption>Medium<br>Ksh. 650</figcaption>
+            </figure>
+            <figure class="col-sm-4">
+                <img src="./images/download.jpg" alt="large-pizza">
+                <figcaption>Large<br>Ksh. 1000</figcaption>
+            </figure>
+        </div>
+    </div>
+</div>
+
+    <div class="container-fluid order" id="make-order">
+      <div class="order-overlay">
+        <div class="controls-top text-center" id="Order-now"> 
+          <h2>Order Here</h2>
+        </div>
+        <h2>Order your pizza here and we will deliver it to you at your door step!</h2>
+        <div class="row">
+            <div class="col-sm-5">
+              <form action="">
+
+                <label for="select">Select pizza</label>
+                <select class="browser-default custom-select custom-select-md mb-3 name">
+                  <option selected value="0">Select pizza here</option>
+                  <option value="Chicken Tikka">Chicken Tikka</option>
+                  <option value="PeriPeri Pizza">PeriPeri Pizza</option>
+                  <option value="Hawaiian">Hawaiian</option>
+                  <option value="BBQ Steak">BBQ Steak</option>
+                  <option value="Veg Tikka">Veg Tikka</option>
+                  <option value="Extravaganza">Extravaganza</option>
+                </select>
+
+                <label for="select">Select Size</label>
+                <select class="browser-default custom-select custom-select-md mb-3" id="size">
+                  <option selected value="0">Select size here</option>
+                  <option value="large">Large -- sh. 1000</option>
+                  <option value="medium">Medium -- sh. 650</option>
+                  <option value="small">Small -- sh. 400</option>
+                </select>
+
+                <label for="crust">Choose your Crust!</label>
+                <select class="browser-default custom-select custom-select-md mb-3" id="crust">
+                  <option selected value="0">Select your preferred crust!</option>
+                  <option value="Crispy">Crispy -- sh. 90</option>
+                  <option value="Stuffed">Stuffed -- sh. 120</option>
+                  <option value="Gluten-free">Gluten-free-- sh. 70</option>
+                </select>
+
+                <label for="Toppings">Select Your Toppings at sh. 35 each</label><br>
+                  <div class="custom-control custom-checkbox custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="pineapple" value="pineapple" name="toppings">
+                    <label class="custom-control-label" for="pineapple">Pineapple</label>
+                  </div>
+                  <div class="custom-control custom-checkbox custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="pepperoni" value="pepperoni" name="toppings">
+                    <label class="custom-control-label" for="pepperoni">Pepperoni</label>
+                  </div>
+                  <div class="custom-control custom-checkbox custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="onions" value="onions" name="toppings">
+                    <label class="custom-control-label" for="onions">Onions</label>
+                  </div>
+                  <br><br>
+                <button type="submit" class="btn submit" id="submit">Submit</button>
+              </form>
+            </div>
+
+            <div class="col-sm-7">
+              <div id="information">
+                <h2>Order now to get the best slices of pizza</h2>
+              </div>
+              <div class="choice">
+                <h2>Please confirm that this is your order</h2>
+                <div id="your-orders">
+                  <table class="table table-sm  pizzatable">
+                    <thead>
+                      <tr>
+                        <th scope="col">Name</th>
+                        <th scope="col">Size</th>
+                        <th scope="col">Crust</th>
+                        <th scope="col">Topping</th>
+                        <th scope="col">Total</th>
+                      </tr>
+                    </thead>
+                    <tbody id="ordersmade">
+                      <tr>
+                        <td id="pizzaname"></td>
+                        <td id="pizzasize"></td>
+                        <td id="pizzacrust"></td>
+                        <td id="pizzatopping"></td>
+                        <td id="totals"></td>
+                      </tr>                  
+                    </tbody>
+                  </table>
+                  <p id="pizzatotal"></p>
+                  <p id="totalbill"></p> 
+                  <p id="addedprice">The cost of the delivery is 50sh</p>
+                  <p id="finalmessage"></p>
+                </div>
+                <button class="btn " id="checkout">Checkout</button>
+                <button class="btn deliver" id="homedelivery">Home delivery</button>
+              </div>
+          
+              <div class="delivery">
+                  <form action="">
+                    <div class="form-group">
+                      <input type="text" id="name" class="form-control mb-3" placeholder="Name">
+                      <input type="number" id="phone" class="form-control mb-3" placeholder="Pnone Number">
+                      <input type="text" id="location" class="form-control mb-3" placeholder="Location for delivery">
+                      <button class="btn" id="final-order">Place Order</button>
+                    </div>
+                  </form>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+
+      <div class="container-fluid" id="contact">
+          <div class="controls-top "> 
+              <h2>Contact Us</h2>
+          </div>
+          <div class="row" id="contactdetails">
+              <div class="col-md-1">
+                  
+              </div>
+              <div class="col-md-3 text-justify">
+                  <h2>Location</h2>
+                  <p>ELDORET</p>
+                  <p>Dream Towers</p>
+                  <p>0717629111</p>
+              </div>
+              <div class="col-md-3">
+                  <h2>Customer Care</h2>
+                  <p>amungaadrian25@gmail.com</p> 
+                  <p>0717629111</p>
+              </div>
+          </div>
+      </div>
+          
+      </div>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="./js/script.js"></script>
+  </body>
+</html>
